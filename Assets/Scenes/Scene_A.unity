@@ -90698,7 +90698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 0, b: 0.007843138, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -184464,6 +184464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 409f13ae40595054c8e1f4f65c5dd592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settingsPanel: {fileID: 0}
 --- !u!1001 &1467042968
 PrefabInstance:
   m_ObjectHideFlags: 0
