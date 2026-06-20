@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Guns : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu(fileName ="new Gun", menuName ="Gun")]
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public class Guns : ScriptableObject 
+
+{
+   public string Name;
+   public float FireRate;
+   public float Recoil;
+   public float KickBack;
+   public float AimSpeed;
+   public GameObject prefads;
+    
+   
 }
